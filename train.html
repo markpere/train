@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Scheduler</title>
+	 <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Insert link to css file -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Anytime is Train Time</h1>
+			<p>Choo Choo. Chee. Chee.</p>
+		</div>
+	<table class="table table-hover" id="resultsTable">
+		<tr>
+			<th class="topBar">Current Train Schedule</th>
+			<th> </th>
+			<th> </th>
+			<th> </th>
+			<th> </th>
+		</tr>	
+		<tr>
+			<th>Train Name</th>
+			<th>Destination</th>
+			<th>Frequency (min)</th>
+			<th>Next Arrival</th>
+			<th>Minutes Away</th>
+		</tr>
+		<tr>
+			<th>Trenton Express</th>
+			<th>Trenton</th>
+			<th>25</th>
+			<th>05:35 PM</th>
+			<th>10</th>
+		</tr>
+		<tr>
+			<th>Oregon Trail</th>
+			<th>Salem, Oregon</th>
+			<th>3600</th>
+			<th>01:39 PM</th>
+			<th>1154</th>
+		</tr>
+		<tr>
+			<th>Midnight Carriage</th>
+			<th>Philadelphia</th>
+			<th>15</th>
+			<th>05:35 PM</th>
+			<th>10</th>
+		</tr>
+		<tr>
+			<th>Sing Sign Caravan</th>
+			<th>Atlanta</th>
+			<th>45</th>
+			<th>05:53 PM</th>
+			<th>28</th>
+		</tr>		
+	</table>
+	<form class="form-horizontal">
+  		<div class="form-group">
+    		<div class="col-sm-10">
+      		<input type="email" class="form-control" id="inputEmail3" placeholder="Train Name">
+    		</div>
+ 	 	</div>
+  		<div class="form-group">
+    		<div class="col-sm-10">
+      		<input type="password" class="form-control" id="inputPassword3" placeholder="Destination">
+    		</div>
+  		</div>
+  		<div class="form-group">
+    		<div class="col-sm-10">
+      		<input type="password" class="form-control" id="inputPassword3" placeholder="First Train Time (HH:mm - military time)">
+    		</div>
+  		</div>
+  		<div class="form-group">
+    		<div class="col-sm-10">
+      		<input type="password" class="form-control" id="inputPassword3" placeholder="Frequency(min)">
+    		</div>
+  		</div>
+  		<div class="form-group">
+  			<div class="col-sm-offset-2 col-sm-10">
+  				<button type="submit" class="btn btn-default">Submit</button>
+  			</div>
+  		</div>		
+	</form>	
+	</div>
+
+</body>
+</html>
